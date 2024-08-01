@@ -19,9 +19,12 @@ class MyApp extends StatelessWidget {
         )),
         body: Text('안녕'),
         bottomNavigationBar: BottomAppBar(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [Icon(Icons.call), Icon(Icons.message), Icon(Icons.contact_page)],
+          child: SizedBox(
+            height: 70,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [Icon(Icons.call), Icon(Icons.message), Icon(Icons.contact_page)],
+            ),
           )
         ),
       )
