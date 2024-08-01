@@ -17,10 +17,9 @@ class MyApp extends StatelessWidget {
         flexibleSpace: Container(
           color: Colors.blue,
         )),
-        body: Container(
-          width: 150, height: 50,
-          decoration: BoxDecoration(
-            border: Border.all(color: Colors.black)
+        body: Center(
+          child: Container(
+            width: 150, height: 50, color: Colors.blue,
           ),
         )
       )
