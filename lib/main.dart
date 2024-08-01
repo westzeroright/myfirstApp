@@ -17,16 +17,12 @@ class MyApp extends StatelessWidget {
         flexibleSpace: Container(
           color: Colors.blue,
         )),
-        body: Text('안녕'),
-        bottomNavigationBar: BottomAppBar(
-          child: SizedBox(
-            height: 70,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [Icon(Icons.call), Icon(Icons.message), Icon(Icons.contact_page)],
-            ),
-          )
-        ),
+        body: Container(
+          width: 150, height: 50, color: Colors.blue,
+          margin: EdgeInsets.all(20),
+          padding: EdgeInsets.all(20),
+          child: Text('ddddd'),
+        )
       )
     );
   }
