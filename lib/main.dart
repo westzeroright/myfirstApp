@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
           color: Colors.blue,
         )),
         body: Container(
-          width: 150, height: 50, color: Colors.blue,
-          margin: EdgeInsets.fromLTRB(0, 30, 0, 0)
-          padding: EdgeInsets.all(20),
-          child: Text('ddddd'),
+          width: 150, height: 50,
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.black)
+          ),
         )
       )
     );
