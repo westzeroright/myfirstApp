@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         body: Align(
           alignment: Alignment.bottomCenter,
           child: Container(
-            width: 150, height: 50, color: Colors.blue,
+            width: double.infinity, height: 50, color: Colors.blue,
           ),
         )
       )
