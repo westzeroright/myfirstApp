@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         )),
         body: Container(
           width: 150, height: 50, color: Colors.blue,
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.fromLTRB(0, 30, 0, 0)
           padding: EdgeInsets.all(20),
           child: Text('ddddd'),
         )
